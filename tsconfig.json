@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "system",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "lib": ["ES2022"],
+    "moduleResolution": "Node",
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "dist/main.js"],
+  "exclude": ["**/*.spec.ts"]
+}
